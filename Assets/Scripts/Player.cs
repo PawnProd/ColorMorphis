@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public LevelController levelController;
     private CharacterController _controller;
 
     private void Start()
